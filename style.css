@@ -1,0 +1,179 @@
+:root {
+  --text-color: #667085;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter',sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  margin-right: 10px;
+}
+
+.links a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+button#cadastrar {
+  background-color: #8E2424;
+  color: #FFF;
+}
+
+.sobrenos {
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sobrenos span {
+  color: #8E2424;
+}
+
+.sobrenos h1{
+  font-size: 2rem;
+}
+
+.sobrenos p {
+  color: var(--text-color);
+  max-width: 50%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+
+.metricas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 96px;
+  gap: 64px;
+}
+
+
+.grid-metricas {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 64px;
+  width: 1280px;
+  height: 192px;
+}
+
+.item h1{
+  width: 280px;
+  height: 72px;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: #8E2424;
+}
+
+.item p {
+  width: 280px;
+  height: 28px; 
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+
+.item h6 {
+  width: 280px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+
+.vagas {
+   padding: 6.5rem;
+    font-family: "Inter", sans-serif;
+  
+}
+
+.vagas_texto {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 8.625rem;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.vagas h3 {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  color: #8E2424;
+  background: #efc2c2;
+
+}
+
+.vagas span {
+  width: 768px;
+  height: 44px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #101828;
+}
+
+.vagas h6{
+  width: 768px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  color: #667085;
+}
+
+.vagas img{
+   display: block;
+    margin: auto;
+}
